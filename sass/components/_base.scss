@@ -1,6 +1,6 @@
 body {
-    background-color: var(--bgd-color);
-    color: var(--primary-text-color);
+    background-color: $bgd-color;
+    color: $primary-text-color;
 
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -25,7 +25,7 @@ p {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
